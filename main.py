@@ -11,7 +11,7 @@ if __name__=='__main__':
 
 def run2():
     data = read_csv.read_csv('./NetflixOriginals.csv')
-    keys,values = utils.top_10(data)
+    keys,values = utils.top_3(data)
     charts.generate_bar_chart(keys,values)
 if __name__ =='__main__':
     run2()
