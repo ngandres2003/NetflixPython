@@ -17,7 +17,7 @@ def most_genre(data):
 def top_3(data): #Funcion para encontrar top 3 con mejor puntuacion
     imdb = list(map(lambda score : float(score['IMDB Score']),data)) #lista con los puntajes de imdb
     movies = list(map(lambda movie : movie['Title'],data)) #Lista de las peliculas
-    dict_top3 = dict(zip(movies[-3:],imdb[-3:])) #Diccionario con las top 3 peliculas
+    dict_top3 = dict(zip(movies[-5:],imdb[-5:])) #Diccionario con las top 5 peliculas
     return dict_top3.keys(),dict_top3.values()
         
     
