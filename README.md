@@ -3,20 +3,20 @@ Esta aplicacion realiza una grafica de tipo pie utilizando la libreria matplotli
 
 ## Requisitos
 
--Python 3.x
+- Python 3.x
 
--Matplotlib
+- Matplotlib
 
 ## Instalacion
 
 1.Crea entorno virtual 
-- **python3 -m venv env**
+**python3 -m venv env**
 
 2.-Activa entorno virtual
-- **source env/bin/activate**
+**source env/bin/activate**
 
 3.-Instala Matplotlib
-- **pip3 install matplotlib**
+**pip3 install matplotlib**
 
 ## Uso
 
