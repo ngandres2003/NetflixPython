@@ -4,6 +4,7 @@ Esta aplicacion realiza una grafica de tipo pie utilizando la libreria matplotli
 ## Requisitos
 
 -Python 3.x
+
 -Matplotlib
 
 ## Instalacion
